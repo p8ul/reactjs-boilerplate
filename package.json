@@ -4,7 +4,7 @@
   "description": "Simple react js app configuration",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch & live-server public/",
+    "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -18,9 +18,7 @@
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.23.0",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.9"
+    "webpack-cli": "^3.1.1"    
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
@@ -36,7 +34,7 @@
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^0.84.0",
-    "live-server": "^1.2.0",
-    "webpack": "^4.20.2"
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
