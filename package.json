@@ -4,7 +4,7 @@
   "description": "Simple react js app configuration",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack --watch & live-server public/",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -35,6 +35,8 @@
     "redux-logger": "^3.0.6",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
-    "semantic-ui-react": "^0.84.0"
+    "semantic-ui-react": "^0.84.0",
+    "live-server": "^1.2.0",
+    "webpack": "^4.20.2"
   }
 }
